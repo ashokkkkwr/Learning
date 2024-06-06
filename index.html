@@ -10,21 +10,11 @@
     <button id ="stop">Stop</button>
 
 </body>
-<script>
-    console.log("ashok")
-    const changeText = function(){
-        document.querySelector('h1').innerHTML="best JS series"
-
-    }
-    const changeMe = setTimeout(changeText,2000)
-    console.log(changeMe)
-    document.querySelector('#stop').addEventListener('click',function(){
-
-        clearTimeout(changeMe)
-        console.log("STOPPED")
-        console.log("never mind")
-        console.log("s")
-    })
-       
+<script>  
+const s = 'hello world'
+console.log(s.length);
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.substring(0,5).toUpperCase())
 </script>
 </html>
