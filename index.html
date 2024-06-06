@@ -11,9 +11,23 @@
 
 </body>
 <script>  
-// string to array
-const array=[1,2,3,4,5,6]
-const arra=['ashok','katwal']
-console.log(arra[0])
+// array of objects
+const todos=[
+    {
+        id:1,
+        text:'Take out trash'
+    },
+    {
+        id:2,
+        text:'clean'
+    }
+]
+todos.forEach((todo)=>{
+    console.log(todo)
+})
+const map= todos.map((todo)=>{
+return todo
+})
+console.log(map)
 </script>
 </html>
