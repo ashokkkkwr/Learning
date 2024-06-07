@@ -1,33 +1,30 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from 'axios';
 
 function App() {
-  const arr=[1,2,3,4,5,6]
+  const [jokes, setJokes] = useState([]);
+
+  useEffect(() => {
+    axios.get('/api/jokes')
+      .then((response) => {
+        setJokes(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
-
-    <div className="App">
-      
-     {
-      arr.map(item=>(
-        <span >{item}</span>
-      )
-
-      )
-      
-     }
-     {
-      arr.map((num)=><span>{num}</span>)
-     }
-        <a
-
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-    </a>
-    </div>
+    <>
+      <p>JOKES: {jokes.length}</p>
+      {jokes.map((joke) => (
+        <div key={joke.id}>
+          <h3>{joke.title}</h3>
+          <p>{joke.content}</p>
+        </div>
+      ))}
+    </>
   );
 }
 
