@@ -35,6 +35,5 @@ const videoSchema = new Schema(
         }
     },
     {
-
     }
 )
