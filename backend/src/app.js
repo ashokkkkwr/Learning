@@ -10,4 +10,5 @@ app.use(express.static("public"))//images pdf  store garnlai public ma
 app.use(cookieParser())
 console.log(jd)
 console.log(dkf);
+console.log(dsf);
 export{app}
