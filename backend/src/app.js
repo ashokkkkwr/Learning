@@ -8,7 +8,6 @@ app.use(express.json())//allowing json files.
 app.use(express.urlencoded({extended:true}))//website ko url ko white space harulai kasari handle garne define garxa
 app.use(express.static("public"))//images pdf  store garnlai public ma
 app.use(cookieParser())
-console.log(jd)
-console.log(dkf);
+
 console.log(dsf);
 export{app}
