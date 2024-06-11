@@ -1,8 +1,8 @@
-import mongoose from 'mongoose';
-import express from 'express'
-const app= express()  
 import 'dotenv/config'
+
 import connectDB from './db/db.js';
+
+import {app} from './app.js'
 // connect to db
 
 

@@ -9,4 +9,20 @@ app.use(express.urlencoded({extended:true}))//website ko url ko white space haru
 app.use(express.static("public"))//images pdf  store garnlai public ma
 app.use(cookieParser())
 
+
+
+
+
+
+
+
+
+
+
+//routes import 
+import userRouter from './routes/user.routes.js'
+//routes declaration
+app.use("/user",userRouter)
+
+
 export{app}
