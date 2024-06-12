@@ -13,7 +13,3 @@ connectDB()
     })
 })
 
-
-
-
-console.log(fdshf)
