@@ -13,5 +13,4 @@ connectDB()
     })
 })
 console.log("sjdf")
-console.log(sdkfj);
-console.log(sdfh)
+console.log(dfh);
