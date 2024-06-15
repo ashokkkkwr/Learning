@@ -12,8 +12,4 @@ connectDB()
         console.log(`connected to the port ${process.env.PORT}`)
     })
 })
-
-
-
-
-console.log(fdshf)
+console.log(sodfh);
