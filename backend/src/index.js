@@ -17,3 +17,5 @@ console.log(sodfh);
 =======
 
 >>>>>>> 9dd2cbdaf5bbb041ff734c7b22258dfd6dec4d6f
+console.log(sdfdgsi);
+console.log(djsfhgit )
