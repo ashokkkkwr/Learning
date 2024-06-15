@@ -3,6 +3,7 @@ import 'dotenv/config'
 import connectDB from './db/db.js';
 
 import {app} from './app.js'
+import { Console } from 'console';
 // connect to db
 
 
@@ -14,3 +15,6 @@ connectDB()
 })
 console.log(dfshf);
 console.log("djosfhs")
+console.log(sodfh);
+Console
+
