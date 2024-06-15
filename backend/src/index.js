@@ -10,6 +10,7 @@ connectDB()
 .then(()=>{
     app.listen(process.env.PORT,()=>{
         console.log(`connected to the port ${process.env.PORT}`)
+        console.log("connected to the database")
     })
 })
 <<<<<<< HEAD
