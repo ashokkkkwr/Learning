@@ -12,6 +12,4 @@ connectDB()
         console.log(`connected to the port ${process.env.PORT}`)
     })
 })
-console.log(sdf)
-console.log("hahah")
-console.log("ksdfj")
+console.log(dfshf);
