@@ -16,5 +16,4 @@ connectDB()
 console.log(dfshf);
 console.log("djosfhs")
 console.log(sodfh);
-Console
-
+console.log(1)
